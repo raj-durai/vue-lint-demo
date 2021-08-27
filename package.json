@@ -38,6 +38,7 @@
     "not dead"
   ],
   "lint-staged": {
-    "*.{js,vue}": "eslint --cache --fix"
+    "*.{js,vue}": "eslint --cache --fix",
+    "!(*.{js,vue})": "prettier --check --ignore-unknown"
   }
 }

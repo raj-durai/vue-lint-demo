@@ -1,23 +1,27 @@
+To Read setp by step procedure open Blog
+
 # vue-lint-demo
 
 ## Project setup
+
 ```
 yarn install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+### For ESLint's and Prettier lint check,
 
-### Lints and fixes files
 ```
 yarn lint
+```
 
-yarn lint-fx
+### For ESLint's and Prettier lint fix,
+
+```
+yarn lint-fix
 ```
